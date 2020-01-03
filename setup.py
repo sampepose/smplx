@@ -21,7 +21,7 @@ import os
 from setuptools import setup
 
 # Package meta-data.
-NAME = 'smplx'
+NAME = 'smplx_custom'
 DESCRIPTION = 'PyTorch module for loading the SMPLX body model'
 URL = 'http://smpl-x.is.tuebingen.mpg.de'
 EMAIL = 'vassilis.choutas@tuebingen.mpg.de'
