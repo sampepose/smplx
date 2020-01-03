@@ -21,7 +21,7 @@ import os
 from setuptools import setup
 
 # Package meta-data.
-NAME = 'smplx_custom'
+NAME = 'smplxcustom'
 DESCRIPTION = 'PyTorch module for loading the SMPLX body model'
 URL = 'http://smpl-x.is.tuebingen.mpg.de'
 EMAIL = 'vassilis.choutas@tuebingen.mpg.de'
@@ -74,4 +74,4 @@ setup(name=NAME,
           'matplotlib': matplotlib_reqs,
           'all': pyrender_reqs + matplotlib_reqs + open3d_reqs
       },
-      packages=['smplx', 'tools'])
+      packages=['smplxcustom', 'tools'])
