@@ -74,4 +74,4 @@ setup(name=NAME,
           'matplotlib': matplotlib_reqs,
           'all': pyrender_reqs + matplotlib_reqs + open3d_reqs
       },
-      packages=['smplxcustom', 'tools'])
+      packages=['smplx', 'tools'])
